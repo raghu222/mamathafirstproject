@@ -1,0 +1,15 @@
+{
+	"name": "azuredatafactorymamatha",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "74bc5302-cc99-4bc7-a5e2-d89c199593be",
+		"tenantId": "98015609-c4e1-4f69-a1ee-2bfaf024d78d"
+	}
+}
